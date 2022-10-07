@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Raleway:wght@300;500;700&display=swap");
+.pregist-container {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "content-part form-part";
+}
+
+@media only screen and (max-width: 800px) {
+    .Navbar-1 {
+        flex-direction: column;
+    }
+    .pregist-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px 0px;
+    }
+    .sosmed a {
+        margin: .1rem;
+    }
+}
+
+.form-part {
+    grid-area: form-part;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 3rem;
+}
+
+.content-part {
+    display: flex;
+    grid-area: content-part;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../img/prereg.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-text {
+    text-align: center;
+    font-size: calc(3rem + 1.5vw);
+    font-weight: 700;
+    line-height: 1.2;
+    /* font-family: 'Staatliches', cursive; */
+    font-family: "Unica One", cursive;
+    color: white;
+}
+
+#preregist-form {
+    color: #424242;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#preregist-form form .form-row {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pregist-branding {
+    font-family: "Unica One", cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.form-row label {
+    font-size: small;
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    color: #424242;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    padding: 8px 2px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: "Raleway", cursive;
+}
+
+input[type="number"] {
+    width: 100%;
+    color: #424242;
+    margin-top: 5px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: "Overpass", sans-serif;
+}
+
+input[type="password"] {
+    width: 100%;
+    font-weight: bold;
+    color: #424242;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    padding: 8px 2px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+input[type="radio"] {
+    color: #424242;
+    resize: vertical;
+    font-family: "Raleway", sans-serif;
+}
+
+input[type="checkbox"] {
+    border-radius: 0.25em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #0d6efd;
+    color: white;
+    margin-top: 15px;
+    padding: 12px 2px;
+    border: 0px solid #424242;
+    resize: vertical;
+    font-family: "Raleway", sans-serif;
+}
+
+#signup-form form .form-row select {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #424242;
+    font-family: "Overpass", sans-serif;
+}
+
+.content-part button {
+    width: 105%;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    padding: 12px;
+    border: 0px solid #424242;
+    resize: vertical;
+    font-family: "Raleway", sans-serif;
+}

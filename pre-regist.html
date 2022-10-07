@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/base-three.css" />
+    <link rel="stylesheet" href="css/pregist.css" />
+    <link rel="icon" type="image/png" href="Logo/Logo.png">
+
+    <title>Pre register</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="Navbar">
+                <div class="Navbar-1">
+                    <div class="logo">
+                        <div class="img-logo">
+                            <a href="Home.html">
+                                <img class="img" src="Ikon/Logo.png" alt="LAFORANT">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Menu">
+
+                        <div class="Menu-men">
+                            <a class="item-menu1" href="Home.html">Home</a>
+                        </div>
+                        <div class="Menu-men">
+                            <a class="item-menu2" href="maps.html">Maps</a>
+                        </div>
+
+                        <div class="Menu-men">
+                            <a class="item-menu3" href="Agents.html">Agents</a>
+                        </div>
+
+                        <div class="Menu-men4">
+                            <a class="drop" href="#">Others</a>
+                            <div class="item-menu4">
+                                <a id="drop-menu" href="System Requirements.html">System Requirements</a>
+                                <a id="drop-menu" href="pre-regist.html">Pre-Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="pregist-container">
+        <div class="content-part bg-danger">
+            <div class="content-text">
+                START YOUR JOURNEY
+            </div>
+            <div>
+                <a href="maps.html">
+                    <button>Explore Maps</button>
+                </a>
+            </div>
+        </div>
+        <div class="form-part">
+            <div id="pregist-branding">
+                PRE-REGISTER NOW!
+            </div>
+            <div id="preregist-form">
+                <form name="pregistForm" action="#" onsubmit="return(validate());">
+                    <div class="form-row">
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" id="emailInput" name="email" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" id="usernameInput" name="username" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" id="passwordInput" name="password" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="dob"><b>Date of birth</b></label>
+                        <input type="text" id="dobInput" name="dob" placeholder="17-08-1945" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="country"><b>Country</b></label>
+                        <input type="text" id="countryInput" name="country" required />
+                    </div>
+                    <div class="form-row">
+                        <input type="checkbox" name="checkbox" required>
+                        <label for="jurusan"><b>I agree to terms and conditions</b></label>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Register" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer bg-black">
+            <div class="sosmed-container">
+                <div class="sosmed">
+                    <a href="https://www.facebook.com/profile.php?id=100069962282588">
+                        <img src="Ikon/fblogo.png" alt="LaforantBattleground">
+                    </a>
+                    <a href="">
+                        <img src="Ikon/instalogo.png" alt="laforant">
+                    </a>
+                    <a href="https://mail.google.com/mail/u/1/#inbox">
+                        <img src="Ikon/Emaillogo.png" alt="laforantbattleground@gmail.com">
+                    </a>
+                    <a href="https://twitter.com/laforantbattle1">
+                        <img src="Ikon/twitlog.png" alt="laforant">
+                    </a>
+                    <a href="https://youtu.be/fApmWBtuxVQ">
+                        <img src="Ikon/youtubelogo.png" alt="LaforantBattleground">
+                    </a>
+                </div>
+            </div>
+
+            <div class="isi-footer">
+                &copy; LAFORANT 2021 B.E.F
+            </div>
+    </footer>
+    <script src="js/form-validation.js" type="text/javascript"></script>
+
+</body>
+
+</html>

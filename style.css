@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    /* height: 100%; */
+    background: black;
+    /* background-size: cover; */
+}
+
+.navbar-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 55px;
+    height: 50px;
+}
+
+.navbar-1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.img {
+    width: 55px;
+}
+
+.Menu {
+    display: flex;
+}
+
+.Menu-men {
+    padding: .5rem;
+    justify-content: space-between;
+}
+
+.Menu-men4 {
+    padding: .5rem;
+    justify-content: space-between;
+}
+
+.item-menu1 {
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.item-menu2 {
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.item-menu3 {
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.drop {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.item-menu4 {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+}
+
+#drop-menu {
+    color: black;
+}
+
+.item-menu4 a {
+    padding: 16px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.item-menu4 a:hover {
+    background-color: rgb(112, 188, 223);
+}
+
+.Menu-men4:hover .item-menu4 {
+    display: block;
+    transform: translateX(-90px);
+}
+
+.Menu .Menu-men,
+.Menu .Menu-men a:hover {
+    /* padding: .5rem; */
+    color: rgb(112, 188, 223);
+    border-radius: 1px;
+    /* border-bottom: 2px solid; */
+}
+
+#focus {
+    border-bottom: 2px solid;
+}
+
+.our-agents {
+    background: #000;
+}
+
+.our-agents>img {
+    align-items: center;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: #000;
+}
+
+.banner-content {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-content img {
+    background: #000;
+    width: 1000px;
+    height: 500px;
+    margin: 3rem 3rem 7rem 3rem;
+}
+
+.banner-title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3rem;
+    border: #fff solid 2px;
+    margin: 5rem 2rem 5rem 2rem;
+}
+
+.banner-title>p {
+    padding: 5rem;
+}
+
+.intro {
+    background-color: #000;
+    padding: 2rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro>h3 {
+    text-align: center;
+}
+
+.intro-content {
+    display: flex;
+    padding: 1rem 4rem;
+}
+
+.intro-item {
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-item>.agents>#agent6 {
+    width: 200px;
+    height: 330px;
+    padding: 1.2rem;
+    padding-bottom: 0;
+}
+
+.intro-item>.agents>#agent2 {
+    width: 300px;
+    height: 350px;
+}
+
+.intro-item>.agents>#agent5 {
+    width: 300px;
+    height: 330px;
+}
+
+.intro>.intro-item>#laforant {
+    width: 300px;
+    align-items: center;
+    margin: 1rem;
+}
+
+.intro-item div {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.intro-item span {
+    margin-left: 5rem;
+}
+
+.intro-2 {
+    text-align: center;
+}
+
+.intro-2 img {
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.sosmed-container {
+    margin-bottom: 2rem;
+}
+
+.sosmed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed a img {
+    width: 40px;
+    height: 40px;
+}
+
+.sosmed a {
+    margin: 0 1.2rem;
+}
+
+.isi-footer {
+    margin: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .navbar-logo {
+        flex-direction: column;
+    }
+    .sosmed a {
+        margin: .1rem;
+    }
+    .banner-content img {
+        width: 300px;
+        height: 150px;
+        /* margin: 3rem 3rem 7rem 3rem; */
+    }
+    .intro-item .agents {
+        text-align: center;
+        flex-direction: column;
+    }
+    .intro-content {
+        text-align: justify;
+        flex-direction: column;
+    }
+    .intro-2 img {
+        align-items: center;
+        width: 270px;
+        height: 150px;
+        /* margin: 1rem; */
+        /* margin-bottom: 2rem; */
+    }
+    .banner-title {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: justify;
+        line-height: 1.3rem;
+        border: #fff solid 2px;
+        /* margin: 5rem 2rem 5rem 2rem; */
+    }
+    .intro-item span {
+        margin-left: 0;
+        text-align: justify;
+    }
+    .banner-content {
+        /* width: 100%; */
+        text-align: center;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    .intro-item>.agents>#agent6 {
+        width: 200px;
+        height: 330px;
+        padding: 1.2rem 2rem 0 1.2rem;
+    }
+    .intro-item>.agents>#agent2 {
+        width: 300px;
+        height: 350px;
+        padding: 1.2rem 2rem 0 1.2rem;
+    }
+    .intro-item>.agents>#agent5 {
+        width: 300px;
+        height: 330px;
+        padding: 1.2rem 2rem 0 1.2rem;
+    }
+}

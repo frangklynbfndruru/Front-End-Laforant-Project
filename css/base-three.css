@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Raleway:wght@300&display=swap");
+
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+
+/* font-family: 'Staatliches', cursive;
+font-family: 'Unica One', cursive; */
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bg-danger {
+    background-color: #6610f2 !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+    background-color: #212529 !important;
+}
+
+.Navbar {
+    /* width: 97vw;
+  position: absolute; */
+    padding: 1rem;
+    background-color: black;
+    z-index: 3;
+}
+
+.Navbar-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 55px;
+}
+
+.Menu {
+    display: flex;
+}
+
+.Menu-men {
+    padding: .5rem;
+    justify-content: space-between;
+}
+
+.Menu-men4 {
+    padding: .5rem;
+    justify-content: space-between;
+}
+
+.item-menu1 {
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.item-menu2 {
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.item-menu3 {
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.drop {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.item-menu4 {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+}
+
+#drop-menu {
+    color: black;
+}
+
+.item-menu4 a {
+    padding: 16px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.item-menu4 a:hover {
+    background-color: rgb(112, 188, 223);
+}
+
+.Menu-men4:hover .item-menu4 {
+    display: block;
+    transform: translateX(-90px);
+}
+
+.Menu .Menu-men,
+.Menu .Menu-men a:hover {
+    /* padding: .5rem; */
+    color: rgb(112, 188, 223);
+    border-radius: 1px;
+    /* border-bottom: 2px solid; */
+}
+
+#focus {
+    border-bottom: 2px solid;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 1.5rem;
+    background-color: white;
+}
+
+.sosmed-container {
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sosmed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed a img {
+    width: 40px;
+    height: 40px;
+}
+
+.sosmed a {
+    margin: 0 1.2rem;
+}
+
+.isi-footer {
+    color: white;
+    margin: 2rem;
+}
+
+.bg-black {
+    background-color: black;
+    padding: 0.5rem;
+}
